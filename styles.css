@@ -1,0 +1,105 @@
+body {
+    background-color: #000;
+    color: #fff;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.post {
+    background-color: #fff;
+    border-radius: 8px;
+    max-width: 500px;
+    width: 90%;
+    color: #000;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+}
+
+.post-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 12px;
+}
+
+.user-info {
+    display: flex;
+    align-items: center;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    font-weight: bold;
+    color: #4CAF50; /* Color verde para el logo */
+    margin-right: 10px;
+}
+
+.logo .fa-html5 {
+    font-size: 24px;
+}
+
+.username {
+    font-weight: bold;
+}
+
+.options {
+    color: #999;
+    cursor: pointer;
+}
+
+.post-image img {
+    width: 100%;
+    height: auto;
+    display: block;
+}
+
+.post-footer {
+    padding: 12px;
+}
+
+.actions {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    font-size: 24px;
+    margin-bottom: 8px;
+}
+
+.actions .fa-heart,
+.actions .fa-comment,
+.actions .fa-paper-plane {
+    cursor: pointer;
+    color: #555;
+}
+
+.actions .bookmark {
+    margin-left: auto;
+    font-size: 24px;
+}
+
+.actions .fa-bookmark {
+    color: #555;
+    cursor: pointer;
+}
+
+.likes {
+    font-weight: bold;
+    margin-bottom: 8px;
+    font-size: 14px;
+}
+
+.likes a {
+    color: #000;
+    text-decoration: none;
+}
+
+.caption {
+    font-size: 14px;
+    line-height: 1.4;
+    color: #222;
+}
